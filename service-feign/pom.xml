@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>serice-feign</name>
+    <name>service-feign</name>
     <description>feign 服务消费者</description>
 
     <parent>
