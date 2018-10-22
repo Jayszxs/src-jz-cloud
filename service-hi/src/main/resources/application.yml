@@ -1,0 +1,11 @@
+server:
+  port: 8711
+
+spring:
+  application:
+    name: rpt-web
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
