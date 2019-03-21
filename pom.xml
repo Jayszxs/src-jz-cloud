@@ -7,6 +7,7 @@
     <groupId>com.jz</groupId>
     <artifactId>src-jz-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
 
     <name>src-jz-cloud</name>
@@ -22,6 +23,11 @@
     <modules>
         <module>eureka-server</module>
         <module>service-hi</module>
+        <module>service-feign</module>
+        <module>service-ribbon</module>
+        <module>service-zuul</module>
+        <module>service-security</module>
+        <module>config-service</module>
     </modules>
 
     <properties>

@@ -1,0 +1,16 @@
+.title {
+    color: #fff;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-right .btn-primary {
+    margin-right: 30px;
+    padding: 6px 15px;
+}
