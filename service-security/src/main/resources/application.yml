@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: security-service
+  freemarker:
+    request-context-attribute: request
+    charset: UTF-8
+  # 暂时使用硬编码
+  #  security:
+  #    ignored: /css/**,/js/**,/favicon.ico,/webjars/**,/img/**,/static/**
+  #    oauth2:
+  #        resource:
+  #            filter-order: 3
+server:
+  port: 9001
+#  servlet:
+#    context-path: /auth
+encrypt:
+  key-store:
+    location: classpath:keystore.jks
+#  ssl:
+#    key-store: classpath:keystore.jks
+#    key-store-password: password
+#   key-password: password
+# contextPath表示上下文；路径
+#    contextPath: /auth
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8701/eureka/
+logging:
+  level:
+    org.springframework.security: DEBUG
